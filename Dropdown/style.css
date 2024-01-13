@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul{
+    list-style: none;
+    background-color: saddlebrown;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: saddlebrown;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+ul li a:hover{
+    background-color: rgb(85, 39, 6);
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}

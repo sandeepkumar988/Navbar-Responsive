@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    padding: 2rem 0;
+    width: 85%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-icon{
+    font-size: 3rem;
+    display: none;
+    color: saddlebrown;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar a:hover{
+    color: saddlebrown;
+}
+
+.navbar .active{
+    color: saddlebrown;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    color:saddlebrown;
+}

@@ -1,0 +1,39 @@
+@media (max-width: 1000px){
+    body{
+        overflow-x: hidden;
+    }
+    #menu-icon{
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .navbar{
+        position: absolute;
+        left:-50%;
+        top:0%;
+        width: 50%;
+        height: 100vh;
+        background: saddlebrown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        transition: 0.5s;
+        font-size: 1rem;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar .active{
+        color: #fff !important;
+    }
+
+    .navbar.open{
+        left:0%;
+    }
+}
